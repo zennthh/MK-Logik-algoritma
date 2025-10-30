@@ -1,0 +1,8 @@
+print ("== Program hitung nilai akhir ==")
+print()
+a = float(input("Masukan nilai pertama: "))
+b = float(input("Masukan nilai kedua: "))
+c = float(input("Masukan nilai ketiga: "))
+hasil = (a * 0.40) + (b * 0.30) + (c * 0.30)
+print()
+print (f"Nilai nya adalah:  {hasil:.2f}")
