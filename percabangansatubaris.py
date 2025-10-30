@@ -1,0 +1,5 @@
+nilai = int(input("Masukan nilai soal kamu:"))
+print (f"Nilai kamu: {nilai}")
+print()
+print ("=== Nilai akhir kamu ===")
+print ("Kamu dapat nilai: A" if nilai >= 60 else "Kamu dapat nilai: E")
